@@ -1,53 +1,46 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-
-
-
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <meta charset="utf-8" />
-    <title></title>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Library 1</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="library2.html">Library 2 <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="library3.html">Library 3</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="library4.html">Library 4</a>
-                </li>
-            </ul>
+    <title>Homework 6</title>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <style type="text/css">
+        html, body {
            
-        </div>
-    </nav>
-
+        }
+    </style>
 </head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script>
-    $(document).ready(function () {
-    $("p").dblclick(function () {
-    $(this).hide();
-    });
-    });
-</script>
 <body>
+    <iframe
+  width="560"
+  height="315"
+  frameborder="0"
+  allow="autoplay; encrypted-media"
+  allowfullscreen
+>
+</iframe>
+    <div id="container"></div>
+    <header class="info">
+            <h1>Homework 6 by Juan Escalante</h1>
+        <nav class="next">
+            <li>
+            <a class="nextpic" href="lib1.html">Lib1</a>
+            </li>
+            <li>
+            <a class="nextpic" href="lib2.html">Lib2</a>
+            </li>
+            <li>
+            <a class="nextpic" href="lib3.html">Lib3</a>
+            </li>
+        </nav>
+    </header>
 
-    <p>If you double-click on me, I will disappear.</p>
-    <p>Click me away!</p>
-    <p>Click me too!</p>
-
-
+    <img class="nextpic2" src="https://pacs.ou.edu/filer/sharing/1495831509/815/">
+    <img class="nextpic2" src="https://ih1.redbubble.net/image.2560223403.3468/st,small,507x507-pad,600x600,f8f8f8.jpg">
+    <img class="nextpic2" src="https://media.bleacherreport.com/f_auto,w_340,h_234,q_auto,c_fill/br-img-slides/003/728/760/hi-res-414151b3aff60b6567a8f05cdd96ffee_crop_exact.jpg">
+    
+    <script>
+        var myshow = w3.slideshow(".nextpic2", 2000);
+        w3.slideshow(".nextpic", 2000);
+    </script>
 </body>
 </html>
